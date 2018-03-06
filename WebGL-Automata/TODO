@@ -1,0 +1,3 @@
+- Add more render filters
+- Add in-game GLSL editor with automatically saved backup tree & revert function
+- Add parametermap explorer (click to select that pixel's rule)

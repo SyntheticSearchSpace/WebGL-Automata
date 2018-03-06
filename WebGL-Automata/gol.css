@@ -1,0 +1,41 @@
+body {
+    margin: 16px auto;
+   // width: 1024px;
+    background: #303030;
+    font-family: sans-serif;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+	
+}
+
+h1 {
+    color: White;
+    text-align: Left;
+    margin: 0;
+}
+
+
+canvas#life {
+    border: 3px solid #333;
+    -moz-transform:scale(1,-1);
+    position:absolute;
+    left:64px;
+    top:64px;
+}
+
+canvas#gc {
+    border: 3px solid #333;
+    position:absolute;
+    left:64px;
+    top:64px;
+}
+
+.fps {
+    position: absolute;
+    top: 0;
+    right: 512ddd;
+    color: White;
+    font-size: 18px;
+}
